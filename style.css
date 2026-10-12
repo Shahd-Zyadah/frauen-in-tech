@@ -40,3 +40,26 @@ button {
 button:hover {
   background: #d63384;
 }
+.angebote {
+  margin-top: 70px;
+}
+
+.karten {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.karte {
+  width: 210px;
+  padding: 25px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 8px 24px rgba(45, 33, 64, 0.12);
+}
+
+.karte h3 {
+  color: #7b2cbf;
+}
