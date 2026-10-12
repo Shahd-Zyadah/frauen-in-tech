@@ -63,3 +63,30 @@ button:hover {
 .karte h3 {
   color: #7b2cbf;
 }
+nav {
+  padding: 18px;
+  background: white;
+}
+
+nav a {
+  margin: 0 12px;
+  color: #7b2cbf;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #d63384;
+}
+
+#kontakt {
+  margin-top: 70px;
+  padding: 50px 20px;
+  color: white;
+  background: linear-gradient(135deg, #7b2cbf, #d63384);
+}
+
+#kontakt a {
+  color: white;
+  font-weight: bold;
+}
