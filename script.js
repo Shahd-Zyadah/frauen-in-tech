@@ -1,6 +1,9 @@
 const button = document.querySelector("button");
+const kontakt = document.querySelector("#kontakt");
 
 button.addEventListener("click", function () {
-  alert("Willkommen bei FrauenInTech! 💜");
+  kontakt.scrollIntoView({
+    behavior: "smooth"
+  });
 });
 
